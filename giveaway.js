@@ -90,4 +90,9 @@ hours = 12;
   }
 });
 
+
+client.on('ready', () => {
+client.user.setGame(`!gstart'ḾŘ ẒỂẒФ`);
+});
+
 client.login(process.env.BOT_TOKEN);
